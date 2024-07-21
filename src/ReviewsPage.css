@@ -1,0 +1,88 @@
+.reviewsPage {
+  font-family: 'Georama', sans-serif;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #FFFFFF;
+}
+
+.promo-section {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.promo-text {
+  font-family: 'Georama';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #AE1111;
+  margin-bottom: 20px;
+}
+
+.rating-section label,
+.rating-section legend {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.comments-field {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 100px;
+  resize: none;
+  margin: 0 auto; 
+  display: block;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ratings img {
+  width: 50px;
+  margin: 0 5px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease, transform 0.2s;
+}
+
+.ratings img:hover, .ratings img.active {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.submit-button {
+  background-color: #AE1111;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto 0; 
+  text-align: center;
+}
+
+.submit-button:hover {
+  background-color: #900E0E;
+}

@@ -1,0 +1,94 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./images/Sign Up.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input.error,
+.form-group select.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+button[type="submit"],
+button.home-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.submit-button {
+  background-color: #AE1111; 
+}
+
+button.submit-button:hover {
+  background-color: #cc0000; 
+}
+
+button.home-button {
+  background-color: #008000; 
+}
+
+button.home-button:hover {
+  background-color: #006400; 
+}
+
+.error-summary {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-size: 18px;
+}
